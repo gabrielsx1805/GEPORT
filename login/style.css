@@ -11,10 +11,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     background: url('../css/img/background.png') no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    zoom: 0.8; /* Ajuste o valor conforme necessário para reduzir o zoom */
+    height: 150vh;
 }
 
 .usericon{
